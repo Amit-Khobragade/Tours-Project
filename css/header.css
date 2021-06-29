@@ -6,10 +6,19 @@
     background-position: center;
     height: 100vh;
     width: var(--screen-width);
+    min-width: 280px;
+    min-height: 490px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 50px;
     text-align: center;
+}
+
+.banner .btn {
+    border-radius: 0px;
+    outline: 3px solid var(--secondry-clr);
+    outline-offset: 3px;
+    margin-top: 10px;
 }
