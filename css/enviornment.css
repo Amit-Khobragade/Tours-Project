@@ -23,7 +23,6 @@
 
 body {
     --screen-width: 100%;
-    background: var(--primary-clr);
 }
 
 /* *===========envionment settings=============== */
