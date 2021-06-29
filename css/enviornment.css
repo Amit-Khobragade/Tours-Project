@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Kurale&family=Yellowtail&display=swap');
+
+:root {
+    --primary-clr: #128FC5;
+    --secondry-clr: #016FB9;
+    --teritiary-clr: #33F1FF;
+
+    --grey-clr-1: #AFA98D;
+    --grey-clr-2: #6D8EA0;
+    --grey-clr-3: #231942;
+    --amatic-font: 'Amatic SC', cursive;
+    --kurale-font: 'Kurale', serif;
+    --yellow-tail-font: 'Yellowtail', cursive;
+    --transition-timing: all 500ms linear;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    --screen-width: 100%;
+    background: var(--primary-clr);
+}
+
+/* *===========envionment settings=============== */
+h1 {
+    font-size: 3rem;
+    font-family: var(--amatic-font);
+    color: var(--grey-clr-2);
+    line-height: 3.5rem;
+    text-transform: capitalize;
+}
+h2 {
+    font-size: 2.5rem;
+    font-family: var(--kurale-font);
+    line-height: 2.5rem;
+    color: var(--grey-clr-3);
+    text-transform: capitalize;
+}
+h3 {
+    font-size: 2rem;
+    font-family: var(--yellow-tail-font);
+    color: var(--grey-clr-1);
+    text-transform: capitalize;
+}
+p {
+    font-size: 1.75rem;
+    font-family: var(--yellow-tail-font);
+    color: var(--grey-clr-1);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    background: linear-gradient(
+        to right,
+        var(--grey-clr-1),
+        var(--teritiary-clr),
+        var(--grey-clr-1)
+    );
+    height: 5px;
+    width: var(--screen-width);
+}
+
+/* *===========envionment class=============== */
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn {
+    display: inline-block;
+    width: max-content;
+    background: var(--teritiary-clr);
+    font-family: var(--yellow-tail-font);
+    font-size: 1.5rem;
+    padding: 0.5rem 0.75rem;
+    color: var(--grey-clr-1);
+    text-transform: capitalize;
+    transition: var(--transition-timing);
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: var(--secondry-clr);
+    transform: scale(1.02, 1.02);
+}
+
+.icon {
+    color: var(--grey-clr-2);
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
