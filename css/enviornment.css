@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Kurale&family=Yellowtail&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Kurale&family=Yellowtail&display=swap");
 
 :root {
-    --primary-clr: #128FC5;
-    --secondry-clr: #016FB9;
-    --teritiary-clr: #33F1FF;
+    --primary-clr: #128fc5;
+    --secondry-clr: #008be7;
+    --teritiary-clr: #016fb9;
 
-    --grey-clr-1: #AFA98D;
-    --grey-clr-2: #6D8EA0;
+    --grey-clr-1: #afa98d;
+    --grey-clr-2: #81a2b4;
     --grey-clr-3: #231942;
-    --amatic-font: 'Amatic SC', cursive;
-    --kurale-font: 'Kurale', serif;
-    --yellow-tail-font: 'Yellowtail', cursive;
+    --amatic-font: "Amatic SC", cursive;
+    --kurale-font: "Kurale", serif;
+    --yellow-tail-font: "Yellowtail", cursive;
     --transition-timing: all 500ms linear;
 }
 
@@ -28,7 +28,7 @@ body {
 
 /* *===========envionment settings=============== */
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-family: var(--amatic-font);
     color: var(--grey-clr-2);
     line-height: 3.5rem;
@@ -46,6 +46,7 @@ h3 {
     font-family: var(--yellow-tail-font);
     color: var(--grey-clr-1);
     text-transform: capitalize;
+    max-width: 50ch;
 }
 p {
     font-size: 1.75rem;
