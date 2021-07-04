@@ -1,0 +1,52 @@
+.news-letter {
+    background: var(--secondry-light-clr);
+    padding: 50px 0px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.news-transcript {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.news-transcript h3 {
+    margin-top: 20px;
+    flex-basis: 100%;
+}
+
+.news-transcript h1 {
+    flex-basis: 100%;
+}
+
+.news-letter form {
+    flex-basis: 100%;
+}
+
+.news-letter input {
+    padding: 0.5rem 0.75rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.news-letter input::placeholder {
+    font-size: 1.5rem;
+}
+
+.news-letter .btn {
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 930px) {
+    .news-letter form {
+        flex-basis: 50%;
+    }
+    .news-transcript {
+        flex-basis: 50%;
+    }
+}
