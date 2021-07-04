@@ -13,10 +13,12 @@
     margin-top: 10px;
     border-radius: 4px;
     transition: var(--transition-timing);
+    box-shadow: 5px 5px 4px var(--grey-clr-3);
 }
 
 .tours figure:hover {
     background: var(--primary-clr);
+    box-shadow: 3px 3px 2px var(--grey-clr-3);
 }
 
 .tours figure img {
