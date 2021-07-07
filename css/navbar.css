@@ -9,6 +9,7 @@ nav {
     transform: translate(-50%, 0%);
     z-index: 2;
     width: var(--screen-width);
+    padding: 20px;
 }
 nav h1 i {
     font-size: 2rem;
