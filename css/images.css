@@ -11,7 +11,7 @@
     flex-basis: calc(100% / 4);
     color: transparent;
     transition: var(--transition-timing);
-    font-size: 3rem;
+    font-size: 5vw;
 }
 
 .images div:hover {
@@ -33,5 +33,13 @@
 @media screen and (max-width: 525px) {
     .images div {
         flex-basis: calc(100% / 2);
+        font-size: 10vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .images div {
+        font-size: 20vw;
+        flex-basis: calc(100%);
     }
 }
