@@ -1,0 +1,13 @@
+footer {
+    background: linear-gradient(
+        var(--secondry-light-clr),
+        var(--teritiary-clr)
+    );
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+
+footer .icon:hover {
+    color: var(--secondry-clr);
+}
