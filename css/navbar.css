@@ -1,0 +1,20 @@
+nav {
+    background: var(--grey-clr-3);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 2;
+    width: var(--screen-width);
+}
+nav h1 i {
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+nav h1 i:hover {
+    color: var(--secondry-clr);
+}
