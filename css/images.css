@@ -1,0 +1,37 @@
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.images div {
+    object-position: center;
+    position: relative;
+    min-width: 100px;
+    flex-basis: calc(100% / 4);
+    color: transparent;
+    transition: var(--transition-timing);
+    font-size: 3rem;
+}
+
+.images div:hover {
+    color: var(--secondry-clr);
+    opacity: 0.5;
+}
+
+.images img {
+    height: 100%;
+}
+
+.images i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 525px) {
+    .images div {
+        flex-basis: calc(100% / 2);
+    }
+}
